@@ -1,0 +1,112 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good day"
+      ],
+      "responses": [
+        "Hello! Welcome to our restaurant.",
+        "Hi there! How can we assist you today?",
+        "Good day! Ready to order or have questions?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "What's on the menu?",
+        "Can I see the menu?",
+        "Tell me about your dishes"
+      ],
+      "responses": [
+        "Sure, here's our menu. What type of cuisine are you interested in?",
+        "Our menu offers a variety of delicious dishes. What are you in the mood for?",
+        "Take a look at our menu. Any specific preferences or dietary restrictions?"
+      ]
+    },
+    {
+      "tag": "ordering",
+      "patterns": [
+        "How can I place an order?",
+        "Can I order food?",
+        "Tell me about the ordering process"
+      ],
+      "responses": [
+        "You can place an order by browsing our menu and calling us. We also offer online ordering.",
+        "Certainly! You can order by phone or use our online ordering system.",
+        "To place an order, check our menu and give us a call. We'll be happy to assist you."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "When does the restaurant open and close?",
+        "When do you open and close?",
+        "What are your working hours?"
+      ],
+      "responses": [
+        "We're open every day from 11am to 10pm. Come visit us!",
+        "Our business hours are 11am to 10pm, seven days a week.",
+        "You can dine in or order takeout during our operating hours from 11am to 10pm."
+      ]
+    },
+    {
+      "tag": "reservation",
+      "patterns": [
+        "Can I make a reservation?",
+        "Tell me about reservations",
+        "Do you accept reservations?"
+      ],
+      "responses": [
+        "Certainly! You can make a reservation by calling us or using our online reservation system.",
+        "We do accept reservations. Feel free to book a table in advance.",
+        "Yes, we encourage reservations for a better dining experience. You can reserve online or call us."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome! If you have any more questions, feel free to ask.",
+        "Glad to help! Enjoy your meal, and let us know if there's anything else you need.",
+        "You're appreciated! If there's anything else you'd like to know, just ask."
+      ]
+    },
+    {
+      "tag": "locations",
+      "patterns": [
+        "Where are you located?",
+        "What is your address?",
+        "Tell me your branch locations",
+        "Which places do you operate in?"
+      ],
+      "responses": [
+        "We have branches in T. Nagar, Padi, Avadi, Ambattur, and Chrompet.",
+        "Our restaurant has multiple branches, including T. Nagar, Padi, Avadi, Ambattur, and Chrompet.",
+        "For branch locations, we have presence in T. Nagar, Padi, Avadi, Ambattur, and Chrompet."
+      ]
+    },
+    {
+      "tag": "special_offers",
+      "patterns": [
+        "Any special offers?",
+        "Tell me about your discounts",
+        "Do you have any promotions?",
+        "Are there any ongoing deals?"
+      ],
+      "responses": [
+        "Yes, we have special offers from time to time. To get the latest discounts, visit our website or contact us directly.",
+        "We frequently have promotions and discounts. You can check our website or ask our staff for the current specials.",
+        "Certainly! We offer various discounts and promotions. Check our website or inquire with our staff for the latest deals."
+      ]
+    }
+  ]
+}
